@@ -3,7 +3,7 @@ public class EncontrarMenorValorVetor {
 
 
 
-public static int encontrarMenorValorVetor () {
+public static void encontrarMenorValorVetor () {
 
     Scanner sc = new Scanner(System.in);
 int N = sc.nextInt();
@@ -40,7 +40,7 @@ int N = sc.nextInt();
   
     System.out.println("Menor valor: " +menorValor);
     System.out.println("Posicao:" +index);
-    return menorValor;
+    
 
 
    

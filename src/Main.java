@@ -2,7 +2,9 @@
 public class Main {
     public static void main(String[] args) throws Exception {
         
-        EncontrarMenorValorVetor.encontrarMenorValorVetor();
+        //EncontrarMenorValorVetor.encontrarMenorValorVetor();
+        SubstituicaoValoresNegativos.substituicaoValoresNegativos();
+        
       
     }
 
