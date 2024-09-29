@@ -75,6 +75,63 @@ Onde:
 Este programa pode ser implementado em diversas linguagens de programação, como Python, C, ou Java.
 
 
+# Programa de Preenchimento do Vetor com Valores Dobros
+
+Este programa lê um valor inteiro `V` e o coloca na primeira posição do vetor `N[10]`. Em seguida, para cada posição subsequente, o valor colocado é o dobro do valor da posição anterior. Ou seja, se o valor lido for `1`, o vetor será preenchido da seguinte forma: `1, 2, 4, 8,...` e assim por diante.
+
+## Exemplo de Entrada
+```
+1
+```
+
+## Exemplo de Saída
+```
+N[0] = 1
+N[1] = 2
+N[2] = 4
+N[3] = 8
+...
+```
+
+## Como Funciona:
+1. O programa começa lendo um valor inteiro `V` (onde `V ≤ 50`).
+2. O primeiro elemento do vetor `N` recebe o valor de `V`.
+3. Para cada posição subsequente `i`, o valor é o dobro do valor da posição anterior, ou seja: 
+   - `N[i] = 2 * N[i-1]`
+4. O vetor é exibido com as respectivas posições e valores.
+
+## Estrutura de Saída:
+O formato da saída é exibido como:
+```
+N[i] = X
+```
+Onde:
+- `i` representa o índice (posição) do vetor.
+- `X` é o valor do vetor na posição correspondente.
+
+## Exemplo Completo:
+Entrada:
+```
+1
+```
+Saída:
+```
+N[0] = 1
+N[1] = 2
+N[2] = 4
+N[3] = 8
+N[4] = 16
+N[5] = 32
+N[6] = 64
+N[7] = 128
+N[8] = 256
+N[9] = 512
+```
+
+## Limitações
+- O valor `V` deve ser um número inteiro menor ou igual a 50.
+
+
 
 
 
