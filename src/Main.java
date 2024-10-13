@@ -4,7 +4,8 @@ public class Main {
         
         //EncontrarMenorValorVetor.encontrarMenorValorVetor();
         //SubstituicaoValoresNegativos.substituicaoValoresNegativos();
-        ProgramaPreenchimentoVetorValoresDobros.programaPreenchimentoVetorValoresDobros();
+        //ProgramaPreenchimentoVetorValoresDobros.programaPreenchimentoVetorValoresDobros();
+        SelecaoVetor.selecaoVetor();
         
       
     }

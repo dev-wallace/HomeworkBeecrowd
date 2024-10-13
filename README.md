@@ -131,6 +131,33 @@ N[9] = 512
 ## Limitações
 - O valor `V` deve ser um número inteiro menor ou igual a 50.
 
+# Desafio: Valores Menores ou Iguais a 10 no Vetor
+
+## Enunciado
+
+Faça um programa que leia um vetor `A[100]`. No final, mostre todas as posições do vetor que armazenam um valor menor ou igual a 10 e o valor armazenado em cada uma das posições.
+
+### Entrada
+
+A entrada contém 100 valores, podendo ser:
+- Números inteiros ou reais
+- Números positivos ou negativos
+
+### Saída
+
+Para cada valor do vetor menor ou igual a 10, escreva `"A[i] = x"`, onde `i` é a posição do vetor e `x` é o valor armazenado naquela posição. O valor deve ser mostrado com **uma casa decimal** após o ponto.
+
+### Exemplo de Entrada
+```
+0 -5 63 -8.5 ...
+```
+
+### Exemplo de Saída
+
+
+```
+A[0] = 0.0 A[1] = -5.0 A[3] = -8.5 ...
+```
 
 
 
