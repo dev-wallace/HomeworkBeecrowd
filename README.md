@@ -159,6 +159,36 @@ Para cada valor do vetor menor ou igual a 10, escreva `"A[i] = x"`, onde `i` é 
 A[0] = 0.0 A[1] = -5.0 A[3] = -8.5 ...
 ```
 
+# Desafio: Troca em Vetor I
+
+## Enunciado
+
+Faça um programa que leia um vetor `N[20]`. Em seguida, troque o primeiro elemento com o último, o segundo elemento com o penúltimo, e assim por diante, até trocar o 10º elemento com o 11º. Mostre o vetor modificado.
+
+### Entrada
+
+A entrada contém 20 valores inteiros, que podem ser:
+- Números inteiros, positivos ou negativos.
+
+### Saída
+
+Para cada posição do vetor `N`, escreva `"N[i] = Y"`, onde:
+- `i` é a posição do vetor (índice de 0 a 19).
+- `Y` é o valor armazenado naquela posição, após as trocas realizadas.
+
+### Exemplo de Entrada
+```
+0 -5 ... 63 230
+```
+
+### Exemplo de Saída
+
+
+```
+N[0] = 230 N[1] = 63 ... N[18] = -5 N[19] = 0
+```
+
+
 
 
 
