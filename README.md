@@ -187,7 +187,50 @@ Para cada posição do vetor `N`, escreva `"N[i] = Y"`, onde:
 ```
 N[0] = 230 N[1] = 63 ... N[18] = -5 N[19] = 0
 ```
+# Problema de Preenchimento de Vetores
 
+Neste problema, você deverá ler 15 valores e organizá-los em 2 vetores, conforme estes valores forem pares ou ímpares. O tamanho de cada um dos dois vetores é de 5 posições. Cada vez que um dos vetores se encher, você deverá imprimir todo o vetor e utilizá-lo novamente para os próximos números que forem lidos. Ao final da leitura, deve-se imprimir o conteúdo que restou em cada um dos dois vetores, imprimindo primeiro os valores do vetor ímpar. Cada vetor pode ser preenchido tantas vezes quantas forem necessárias.
+
+## Exemplo
+
+**Entrada**
+
+```
+1
+3
+4
+-4
+2
+3
+8
+2
+5
+-7
+54
+76
+789
+23
+98
+```
+
+**Saída**
+```
+par[0] = 4
+par[1] = -4
+par[2] = 2
+par[3] = 8
+par[4] = 2
+impar[0] = 1
+impar[1] = 3
+impar[2] = 3
+impar[3] = 5
+impar[4] = -7
+impar[0] = 789
+impar[1] = 23
+par[0] = 54
+par[1] = 76
+par[2] = 98
+```
 
 
 

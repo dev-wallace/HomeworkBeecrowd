@@ -6,7 +6,8 @@ public class Main {
         //SubstituicaoValoresNegativos.substituicaoValoresNegativos();
         //ProgramaPreenchimentoVetorValoresDobros.programaPreenchimentoVetorValoresDobros();
         //SelecaoVetor.selecaoVetor();
-        TrocaVetor.trocarVetor();
+        //TrocaVetor.trocarVetor();
+        PreenchimentoVetor.preenchimentoVetor();
         
       
     }
