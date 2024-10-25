@@ -231,7 +231,27 @@ par[0] = 54
 par[1] = 76
 par[2] = 98
 ```
+# Linha na Matriz
 
+## Descrição
+Neste problema, você deve ler um número indicando uma linha da matriz onde uma operação deve ser realizada, um caractere maiúsculo indicando a operação a ser realizada, e todos os elementos de uma matriz `M[12][12]`. Em seguida, calcule e mostre a soma ou a média dos elementos que estão na linha especificada da matriz.
 
+## Entrada
+- A primeira linha contém um número `L` (0 ≤ L ≤ 11), indicando a linha da matriz que será considerada para a operação.
+- A segunda linha contém um único caractere maiúsculo `T` ('S' ou 'M'), indicando a operação a ser realizada (Soma ou Média).
+- Em seguida, são fornecidos os 144 valores de ponto flutuante que compõem a matriz, preenchidos linha por linha, da linha 0 até a linha 11, sempre da esquerda para a direita.
 
+## Saída
+- Imprima o resultado solicitado (a soma ou média) com 1 casa após o ponto decimal.
+
+## Exemplo de Entrada
+```
+2 S 0,0 -3,5 2,5 4,1 ...
+```
+
+## Exemplo de Saída
+
+```
+12.6
+```
 
