@@ -255,3 +255,30 @@ Neste problema, você deve ler um número indicando uma linha da matriz onde uma
 12.6
 ```
 
+# Coluna na Matriz
+
+
+
+Neste problema, você deve ler um número que indica uma coluna de uma matriz \( M[12][12] \) na qual uma operação deve ser realizada, um caractere maiúsculo indicando a operação a ser realizada, e todos os elementos que compõem a matriz. Em seguida, calcule e mostre a soma ou a média dos elementos que estão na coluna especificada da matriz.
+
+## Entrada
+A entrada contém:
+- A primeira linha um número \( C \) (0 ≤ \( C \) ≤ 11) indicando a coluna que será considerada para a operação.
+- A segunda linha contém um único caractere maiúsculo \( T \) ('S' ou 'M'), indicando a operação que deverá ser realizada (Soma ou Média).
+- Seguem os 144 valores de ponto flutuante que compõem a matriz, preenchidos linha por linha, da linha 0 até a linha 11, da esquerda para a direita.
+
+## Saída
+Imprima o resultado solicitado (a soma ou média) com 1 casa decimal.
+
+## Exemplo de Entrada
+```
+2 S 0,0 -3,5 2,5 4,1 ...
+```
+
+## Exemplo de Saída
+
+```
+12.6
+```
+
+

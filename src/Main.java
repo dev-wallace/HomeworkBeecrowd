@@ -8,7 +8,8 @@ public class Main {
         //SelecaoVetor.selecaoVetor();
         //TrocaVetor.trocarVetor();
         //PreenchimentoVetor.preenchimentoVetor();
-       LinhaMatriz.linhaMatriz();
+       //LinhaMatriz.linhaMatriz();
+       ColunaMatriz.colunaMatriz();
 
         
       
