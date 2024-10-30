@@ -280,5 +280,31 @@ Imprima o resultado solicitado (a soma ou média) com 1 casa decimal.
 ```
 12.6
 ```
+# beecrowd | 1183 - Acima da Diagonal Principal
+
+
+
+Neste problema, você deve ler um caractere maiúsculo que indica uma operação a ser realizada em uma matriz \( M[12][12] \). A operação deve considerar apenas os elementos da matriz que estão acima da diagonal principal, conforme ilustrado na área verde na imagem do problema.
+
+## Entrada
+A entrada contém:
+1. A primeira linha um único caractere maiúsculo \( O \) ('S' para Soma ou 'M' para Média), indicando a operação que deverá ser realizada nos elementos da matriz.
+2. As próximas 144 linhas contêm os valores de ponto flutuante que preenchem a matriz \( M[12][12] \), da linha 0 até a linha 11, da esquerda para a direita.
+
+## Saída
+Imprima o resultado solicitado (a soma ou média dos elementos acima da diagonal principal) com 1 casa decimal.
+
+## Exemplo de Entrada
+```
+S 1,0 0,0 -3,5 2,5 4,1 ...
+
+```
+
+## Exemplo de Saída
+
+```
+12.6
+
+```
 
 

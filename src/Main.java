@@ -9,7 +9,8 @@ public class Main {
         //TrocaVetor.trocarVetor();
         //PreenchimentoVetor.preenchimentoVetor();
        //LinhaMatriz.linhaMatriz();
-       ColunaMatriz.colunaMatriz();
+       //ColunaMatriz.colunaMatriz();
+       AcimaDiagonalPrincipal.acimaDiagonalPrincipal();
 
         
       
