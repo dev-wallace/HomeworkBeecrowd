@@ -10,7 +10,7 @@ public class Main {
         //PreenchimentoVetor.preenchimentoVetor();
        //LinhaMatriz.linhaMatriz();
        //ColunaMatriz.colunaMatriz();
-       AcimaDiagonalPrincipal.acimaDiagonalPrincipal();
+      // AcimaDiagonalPrincipal.acimaDiagonalPrincipal();
 
         
       
