@@ -11,7 +11,7 @@ public class Main {
        //LinhaMatriz.linhaMatriz();
        //ColunaMatriz.colunaMatriz();
       // AcimaDiagonalPrincipal.acimaDiagonalPrincipal();
-
+        OrdenacaooTamanho.ordenacaooTamanho();
         
       
     }
