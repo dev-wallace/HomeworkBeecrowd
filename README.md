@@ -308,3 +308,30 @@ S 1,0 0,0 -3,5 2,5 4,1 ...
 ```
 
 
+# Desafio: Operação na Área Direita de uma Matriz
+
+## Descrição
+
+Este programa lê um caractere maiúsculo que indica uma operação a ser realizada (`'S'` para soma ou `'M'` para média) e uma matriz `M[12][12]` de valores de ponto flutuante. O programa então calcula e exibe a soma ou média apenas dos elementos na área direita da matriz.
+
+A área direita está indicada conforme a ilustração (área verde) e corresponde a uma sub-região triangular à direita da matriz.
+
+## Entrada
+
+1. A primeira linha contém um único caractere maiúsculo `'S'` (para Soma) ou `'M'` (para Média), indicando a operação que deverá ser realizada.
+2. As próximas linhas contêm os 144 valores de ponto flutuante que compõem a matriz `M[12][12]`.
+
+
+### Exemplo de Entrada
+
+```
+S 1.0 330.0 -3.5 2.5 4.1 ...
+
+```
+## Saída
+
+```
+29.6
+
+```
+
